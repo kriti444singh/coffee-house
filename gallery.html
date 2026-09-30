@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="gallery-page">
+</div>
+<h1>Gallery</h1>
+
+<img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" width="150">
+<img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" width="150">
+<img src="ihttps://images.unsplash.com/photo-1509042239860-f550ce710b93" width="150">
+<img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085" width="150">
+<img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93" width="150">
+<img src="https://images.unsplash.com/photo-1511920170033-f8396924c348" width="150">
+<img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e" width="150">
+<img src="https://images.unsplash.com/photo-1517705008128-361805f42e86" width="150">
+</body>
+</html>
+
+/* Gallery Page */
+
+.gallery-page {
+background-color: #f8f1e7;
+min-height: 100vh;
+padding: 40px;
+text-align: center;
+}
+
+/* Gallery Heading */
+
+.gallery-page h1 {
+color: #4b2e24;
+font-size: 40px;
+margin-bottom: 10px;
+}
+
+/* Description */
+
+.gallery-page p {
+color: #6f4e37;
+font-size: 18px;
+margin-bottom: 30px;
+}
+
+/* Gallery Images */
+
+.gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+
+/* Image Style */
+
+.gallery img {
+width: 220px;
+height: 180px;
+object-fit: cover;
+border-radius: 10px;
+
+```
+transition: 0.3s;
+
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+```
+
+}
+
+/* Image Hover */
+
+.gallery img:hover {
+transform: scale(1.08);
+cursor: pointer;
+}
+
+/* Button */
+
+.gallery-page button {
+margin-top: 30px;
+padding: 12px 25px;
+
+```
+background-color: #6f4e37;
+color: white;
+
+border: none;
+border-radius: 6px;
+
+font-size: 16px;
+cursor: pointer;
+```
+
+}
+
+/* Button Hover */
+
+.gallery-page button:hover {
+background-color: #4b2e24;
+}
